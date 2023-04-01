@@ -34,11 +34,11 @@ switch(args.optimazation){
 }
 //exporting module
 module.exports = {
-    entry: "main.js",
+    entry: "./main.js",
     name: "index",
     mode: mode,
     output:{
         filename: "index.js",
-        path: path.resolve(__dirname)
+        path: path.resolve(__dirname,"dist")
     }
 }
