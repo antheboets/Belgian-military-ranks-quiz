@@ -1,0 +1,24 @@
+{
+  "name": "gradenquiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antheboets/Belgian-military-ranks-quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antheboets/Belgian-military-ranks-quiz/issues"
+  },
+  "homepage": "https://github.com/antheboets/Belgian-military-ranks-quiz#readme",
+  "dependencies": {
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
