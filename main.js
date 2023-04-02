@@ -78,7 +78,7 @@ const changeImage = () => {
     let img = div.getElementsByTagName("img")[0]
     console.log(imageObjs)
     color ? div.replaceChild(imageObjs.imageColor,img) : div.replaceChild(imageObjs.image,img)
-    div.getElementsByTagName("img")[0].className = rankImage
+    div.getElementsByTagName("img")[0].className = "rankImage"
 }
 
 window.addEventListener("load",async ()=>{
