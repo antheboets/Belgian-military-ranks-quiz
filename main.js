@@ -18,9 +18,9 @@ const drawNewRank = async () => {
     let div = document.createElement("DIV")
     let loadPromise = [] 
     let rankImage = new Image(currentRank.image)
-    loadPromise.add(ImageLoadPromise(rankImage))
+    loadPromise.push(ImageLoadPromise(rankImage))
     let rankColorImage = new Image(currentRank.imageKleur)
-    loadPromise.add(ImageLoadPromise(rankColorImage))
+    loadPromise.push(ImageLoadPromise(rankColorImage))
     rankDiv.addEventListener("click",showRank)
     await Promise.all(loadPromise)
     imageObjs.image = rankImage
@@ -64,7 +64,6 @@ window.addEventListener("load",async ()=>{
         color ? color = false : color = true
         changeImage()
     })
-    data = await(await (fetch("data.json"))).json
-    console.log(data[rand(data.length)])
+    data = await(await (fetch("data.json"))).json()
     await drawNewRank()
 })
