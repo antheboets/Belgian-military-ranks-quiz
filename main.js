@@ -47,14 +47,19 @@ const showRank = ()=>{
     let div = rankDiv.firstChild
     rankDiv.removeEventListener("click",showRank)
     let pRank = document.createElement("P")
-    pRank.innerText = currentRank.graad
+    pRank.innerText = `${currentRank.graad}`
     pRank.className = "graadText"
+
+    let pComponent = document.createElement("P")
+    pComponent.innerText = `${currentRank.component}`
+    pComponent.className = "componentText"
 
     let pRankAanspreeknaam = document.createElement("P")
     pRankAanspreeknaam.innerText = `"${currentRank.aanspreeknaam}"`
     pRankAanspreeknaam.className = "aanspreekText"
 
     div.appendChild(pRank)
+    div.appendChild(pComponent)
     div.appendChild(pRankAanspreeknaam)
     rankDiv.addEventListener("click",restRank)
 }
