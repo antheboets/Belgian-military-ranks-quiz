@@ -53,7 +53,7 @@ const showRank = ()=>{
     let pRankAanspreeknaam = document.createElement("P")
     pRankAanspreeknaam.innerText = `"${currentRank.aanspreeknaam}"`
     pRankAanspreeknaam = "aanspreekText"
-    
+
     div.appendChild(pRank)
     div.appendChild(pRankAanspreeknaam)
     rankDiv.addEventListener("click",restRank)
@@ -61,7 +61,7 @@ const showRank = ()=>{
 
 const restRank = () =>{
     rankDiv.removeEventListener("click",restRank)
-    rankDiv.removeChild()
+    rankDiv.removeChild(rankDiv.firstChild())
     drawNewRank()
 }
 
