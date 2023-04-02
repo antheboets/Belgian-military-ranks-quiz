@@ -17,7 +17,7 @@
         width: 80%;
     }
     p{
-        font-size: 10em;
+        font-size: 6em;
     }
   }
   @media (max-width: 480px) {
@@ -28,13 +28,14 @@
         width: 80%;
     }
     p{
-        font-size: 10em;
+        font-size: 6em;
     }
 }
 #colorBtn{
     background-color: burlywood;
     border: 1px brown solid;
     width: fit-content;
+    font-size: 2em;
 }
 .rank{
     width: 100%;
