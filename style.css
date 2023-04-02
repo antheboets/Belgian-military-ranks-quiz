@@ -1,0 +1,25 @@
+#colorBtn{
+    background-color: burlywood;
+    border: 1px brown solid;
+    width: fit-content;
+}
+.rank{
+    width: 100%;
+    height: 100%;
+}
+.rankImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.graadText{
+    text-align: center;
+}
+.componentText{
+    text-align: center;
+}
+.aanspreekText{
+    text-align: center;
+    font-style: italic; 
+}
