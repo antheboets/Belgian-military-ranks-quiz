@@ -2,6 +2,7 @@ let currentRank = null
 let rankDiv
 let color = false
 let imageObjs = {}
+let data = {}
 
 const rand = (max) => Math.floor(Math.random() * max)
 
@@ -63,7 +64,7 @@ window.addEventListener("load",async ()=>{
         color ? color = false : color = true
         changeImage()
     })
-    const data = await(await (fetch("data.json"))).json
+    data = await(await (fetch("data.json"))).json
     console.log(data[rand(data.length)])
     await drawNewRank()
 })
