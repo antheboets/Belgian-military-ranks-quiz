@@ -17,7 +17,7 @@
         width: 80%;
     }
     text{
-        font-size: 4em;
+        font-size: 10em;
     }
   }
   @media (max-width: 480px) {
@@ -28,7 +28,7 @@
         width: 80%;
     }
     text{
-        font-size: 4em;
+        font-size: 10em;
     }
 }
 #colorBtn{
