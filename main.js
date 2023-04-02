@@ -52,7 +52,7 @@ const showRank = ()=>{
 
     let pRankAanspreeknaam = document.createElement("P")
     pRankAanspreeknaam.innerText = `"${currentRank.aanspreeknaam}"`
-    pRankAanspreeknaam = "aanspreekText"
+    pRankAanspreeknaam.className = "aanspreekText"
 
     div.appendChild(pRank)
     div.appendChild(pRankAanspreeknaam)
