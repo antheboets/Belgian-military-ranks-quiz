@@ -76,7 +76,6 @@ const changeImage = () => {
     //idk fix class
     let div = rankDiv.firstChild
     let img = div.getElementsByTagName("img")[0]
-    console.log(imageObjs)
     color ? div.replaceChild(imageObjs.imageColor,img) : div.replaceChild(imageObjs.image,img)
     div.getElementsByTagName("img")[0].className = "rankImage"
 }
