@@ -1,6 +1,6 @@
 [
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/98/LandLuchtMarineOR1.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/9/92/KleurLandOR1.png",
         "graad":"Soldaat",
@@ -8,7 +8,7 @@
         "functie-schaalNavo":"OR-1"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/2/28/LandOR2.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/3/3d/KleurLandOR2.png",
         "graad":"1e soldaat",
@@ -16,7 +16,7 @@
         "functie-schaalNavo":"OR-2"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/LandOR3.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/4/41/KleurLandOR3.png",
         "graad":"Korporaal",
@@ -24,7 +24,7 @@
         "functie-schaalNavo":"OR-3"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/3/3d/LandOR4a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/d/dc/KleurLandOR4a.png",
         "graad":"Korporaal-chef",
@@ -32,7 +32,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4d/LandOR4b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/2/2b/KleurLandOR4b.png",
         "graad":"1e korporaal-chef",
@@ -40,7 +40,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/cb/LandOR5.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/cb/KleurLandOR5.png",
         "graad":"Sergeant",
@@ -48,7 +48,7 @@
         "functie-schaalNavo":"OR-5"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/b/bc/LandOR6a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/b/b1/KleurLandOR6a.png",
         "graad":"1e sergeant",
@@ -56,7 +56,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/46/LandOR6b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/1/17/KleurLandOR6b.png",
         "graad":"1e sergeant-chef",
@@ -64,7 +64,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/e/e3/LandOR7.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/5/5b/KleurLandOR7.png",
         "graad":"1e sergeant-majoor",
@@ -72,7 +72,7 @@
         "functie-schaalNavo":"OR-7"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/a/a2/LandOR8.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/1/17/KleurLandOR8.png",
         "graad":"Adjudant",
@@ -80,7 +80,7 @@
         "functie-schaalNavo":"OR-8"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/d/dc/LandOR9a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/7c/KleurLandOR9a.png",
         "graad":"Adjudant-chef",
@@ -88,7 +88,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/93/LandOR9b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/2/28/KleurLandOR9b.png",
         "graad":"Adjudant-majoor",
@@ -96,7 +96,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/01/LandOF1a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/ed/KleurLandOF1a.png",
         "graad":"Onderluitenant",
@@ -104,7 +104,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/e/ee/LandOF1b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/ee/LandOF1b.png",
         "graad":"Luitenant",
@@ -112,7 +112,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/74/LandOF2.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/c8/KleurLandOF2.png",
         "graad":"Kapitein",
@@ -120,7 +120,7 @@
         "functie-schaalNavo":"OF-2"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/8/8a/LandOF3a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/8a/LandOF3a.png",
         "graad":"Kapitein-commandant",
@@ -128,7 +128,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/72/LandOF3b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/83/KleurLandOF3b.png",
         "graad":"Majoor",
@@ -136,7 +136,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/LandOF4.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/f/f6/KleurLandOF4.png",
         "graad":"Luitenant-kolonel",
@@ -144,7 +144,7 @@
         "functie-schaalNavo":"OF-4"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/8/8b/LandOF5.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/4/4c/KleurLandOF5.png",
         "graad":"Kolonel",
@@ -152,7 +152,7 @@
         "functie-schaalNavo":"OF-5"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/5/5c/LandOF6.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/72/KleurLandOF6.png",
         "graad":"Brigadegeneraal",
@@ -160,7 +160,7 @@
         "functie-schaalNavo":"OF-6"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/8/8e/LandOF7.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/e3/KleurLandOF7.png",
         "graad":"Generaal-majoor",
@@ -168,7 +168,7 @@
         "functie-schaalNavo":"OF-7"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/77/LandOF8.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/e0/KleurLandOF8.png",
         "graad":"Luitenant-generaal",
@@ -176,7 +176,7 @@
         "functie-schaalNavo":"OF-8"
     },
     {
-        "component":"land",
+        "component":"Landcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4a/LandOF9.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/4/43/KleurLandOF9.png",
         "graad":"Generaal",
@@ -184,7 +184,7 @@
         "functie-schaalNavo":"OF-9"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/72/MedicOR1.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/d/d3/KleurMedicOR1.png",
         "graad":"Soldaat",
@@ -192,7 +192,7 @@
         "functie-schaalNavo":"OR-1"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/71/MedicOR2.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/0/0a/KleurMedicOR2.png",
         "graad":"1e soldaat",
@@ -200,7 +200,7 @@
         "functie-schaalNavo":"OR-2"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/68/MedicOR3.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/7c/KleurMedicOR3.png",
         "graad":"Korporaal",
@@ -208,7 +208,7 @@
         "functie-schaalNavo":"OR-3"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/f2/MedicOR4a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/d/d2/KleurMedicOR4a.png",
         "graad":"Korporaal-chef",
@@ -216,7 +216,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/f7/MedicOR4b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/9/99/KleurMedicOR4b.png",
         "graad":"1e korporaal-chef",
@@ -224,7 +224,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/MedicOR5.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/6/66/KleurMedicOR5.png",
         "graad":"Sergeant",
@@ -232,7 +232,7 @@
         "functie-schaalNavo":"OR-5"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/MedicOR6a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/a1/KleurMedicOR6a.png",
         "graad":"1e sergeant",
@@ -240,7 +240,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c5/MedicOR6b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/6/64/KleurMedicOR6b.png",
         "graad":"1e sergeant-chef",
@@ -248,7 +248,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/41/MedicOR7.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/cf/KleurMedicOR7.png",
         "graad":"1e sergeant-majoor",
@@ -256,7 +256,7 @@
         "functie-schaalNavo":"OR-7"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/1/1a/MedicOR8.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/6/62/KleurMedicOR8.png",
         "graad":"Adjudant",
@@ -264,7 +264,7 @@
         "functie-schaalNavo":"OR-8"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c0/MedicOR9a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/85/KleurMedicOR9a.png",
         "graad":"Adjudant-chef",
@@ -272,7 +272,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/a/a4/MedicOR9b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/ec/KleurMedicOR9b.png",
         "graad":"Adjudant-majoor",
@@ -280,7 +280,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/1/1a/MedicOF1a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/84/KleurMedicOF1a.png",
         "graad":"Onderluitenant",
@@ -288,7 +288,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/5/58/MedicOF1b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/0/0a/KleurMedicOF1b.png",
         "graad":"Luitenant",
@@ -296,7 +296,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/3/3c/MedicOF2.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/f/fc/KleurMedicOF2.png",
         "graad":"Kapitein",
@@ -304,7 +304,7 @@
         "functie-schaalNavo":"OF-2"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/f9/MedicOF3a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/af/KleurMedicOF3a.png",
         "graad":"Kapitein-commandant",
@@ -312,7 +312,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/2/29/MedicOF3b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/e6/KleurMedicOF3b.png",
         "graad":"Majoor",
@@ -320,7 +320,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/b/b0/MedicOF4.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/4/49/KleurMedicOF4.png",
         "graad":"Luitenant-kolonel",
@@ -328,7 +328,7 @@
         "functie-schaalNavo":"OF-4"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/b/be/MedicOF5.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/b/bd/KleurMedicOF5.png",
         "graad":"Kolonel",
@@ -336,7 +336,7 @@
         "functie-schaalNavo":"OF-5"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/94/MedicOF6.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/9/99/KleurMedicOF6.png",
         "graad":"Brigadegeneraal",
@@ -344,7 +344,7 @@
         "functie-schaalNavo":"OF-6"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/60/MedicOF7.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/cd/KleurMedicOF7.png",
         "graad":"Generaal-majoor",
@@ -352,7 +352,7 @@
         "functie-schaalNavo":"OF-7"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/f7/MedicOF8.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/b/bf/KleurMedicOF8.png",
         "graad":"Luitenant-generaal",
@@ -360,7 +360,7 @@
         "functie-schaalNavo":"OF-8"
     },
     {
-        "component":"medis",
+        "component":"Medische component",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/76/MedicOF9.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/f/f7/KleurMedicOF9.png",
         "graad":"Generaal",
@@ -368,7 +368,7 @@
         "functie-schaalNavo":"OF-9"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/98/LandLuchtMarineOR1.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/1/1d/KleurLuchtOR1.png",
         "graad":"Soldaat",
@@ -376,7 +376,7 @@
         "functie-schaalNavo":"OR-1"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/6b/LuchtOR2.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/81/KleurLuchtOR2.png",
         "graad":"1e soldaat",
@@ -384,7 +384,7 @@
         "functie-schaalNavo":"OR-2"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4c/LuchtOR3.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/8d/KleurLuchtOR3.png",
         "graad":"Korporaal",
@@ -392,7 +392,7 @@
         "functie-schaalNavo":"OR-3"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/06/LuchtOR4a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/ae/KleurLuchtOR4a.png",
         "graad":"Korporaal-chef",
@@ -400,7 +400,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/1/13/LuchtOR4b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/5/54/KleurLuchtOR4b.png",
         "graad":"1e korporaal-chef",
@@ -408,7 +408,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/2/2a/LuchtOR5.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/d/df/KleurLuchtOR5.png",
         "graad":"Sergeant",
@@ -416,7 +416,7 @@
         "functie-schaalNavo":"OR-5"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/2/20/LuchtOR6a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/79/KleurLuchtOR6a.png",
         "graad":"1e sergeant",
@@ -424,7 +424,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/48/LuchtOR6b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/e7/KleurLuchtOR6b.png",
         "graad":"1e sergeant-chef",
@@ -432,7 +432,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/06/LuchtOR7.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/ac/KleurLuchtOR7.png",
         "graad":"1e sergeant-majoor",
@@ -440,7 +440,7 @@
         "functie-schaalNavo":"OR-7"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/8/8e/LuchtOR8.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/a1/KleurLuchtOR8.png",
         "graad":"Adjudant",
@@ -448,7 +448,7 @@
         "functie-schaalNavo":"OR-8"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/5/53/LuchtOR9a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/c6/KleurLuchtOR9a.png",
         "graad":"Adjudant-chef",
@@ -456,7 +456,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/LuchtOR9b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/2/23/KleurLuchtOR9b.png",
         "graad":"Adjudant-majoor",
@@ -464,7 +464,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/d/d6/LuchtOF1a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/3/30/KleurLuchtOF1a.png",
         "graad":"Onderluitenant",
@@ -472,7 +472,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/LuchtOF1b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/5/57/KleurLuchtOF1b.png",
         "graad":"Luitenant",
@@ -480,7 +480,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/7d/LuchtOF2.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/2/28/KleurLuchtOF2.png",
         "graad":"Kapitein",
@@ -488,7 +488,7 @@
         "functie-schaalNavo":"OF-2"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/8/8f/LuchtOF3a.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/9/90/KleurLuchtOF3a.png",
         "graad":"Kapitein-commandant",
@@ -496,7 +496,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c4/LuchtOF3b.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/7a/KleurLuchtOF3b.png",
         "graad":"Majoor",
@@ -504,7 +504,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/96/LuchtOF4.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/2/21/KleurLuchtOF4.png",
         "graad":"Luitenant-kolonel",
@@ -512,7 +512,7 @@
         "functie-schaalNavo":"OF-4"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/b/b1/LuchtOF5.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/a2/KleurLuchtOF5.png",
         "graad":"Kolonel",
@@ -520,7 +520,7 @@
         "functie-schaalNavo":"OF-5"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c9/LuchtOF6.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/2/25/KleurLuchtOF6.png",
         "graad":"Brigadegeneraal",
@@ -528,7 +528,7 @@
         "functie-schaalNavo":"OF-6"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/9b/LuchtOF7.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/5/5d/KleurLuchtOF7.png",
         "graad":"Generaal-majoor",
@@ -536,7 +536,7 @@
         "functie-schaalNavo":"OF-7"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c0/LuchtOF8.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/73/KleurLuchtOF8.png",
         "graad":"Luitenant-generaal",
@@ -544,7 +544,7 @@
         "functie-schaalNavo":"OF-8"
     },
     {
-        "component":"lucht",
+        "component":"Luchtcomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/2/26/LuchtOF9.png",
         "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/5/52/KleurLuchtOF9.png",
         "graad":"Generaal",
@@ -552,7 +552,7 @@
         "functie-schaalNavo":"OF-9"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/98/LandLuchtMarineOR1.png",
         "graad":"Matroos",
         "aanspreeknaam":"Matroos",
@@ -560,7 +560,7 @@
         "functie-schaalNavo":"OR-1"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/0/0f/MarineOR2.png",
         "graad":"1e matroos",
         "aanspreeknaam":"1e matroos",
@@ -568,7 +568,7 @@
         "functie-schaalNavo":"OR-2"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/5/5c/MarineOR3.png",
         "graad":"Kwartiermeester",
         "aanspreeknaam":"Kwartiermeester",
@@ -576,7 +576,7 @@
         "functie-schaalNavo":"OR-3"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/5/51/MarineOR4a.png",
         "graad":"Kwartiermeester-chef",
         "aanspreeknaam":"Kwartiermeester-chef",
@@ -584,7 +584,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/3/39/MarineOR4b.png",
         "graad":"1e kwartiermeester-chef",
         "aanspreeknaam":"1e kwartiermeester-chef",
@@ -592,7 +592,7 @@
         "functie-schaalNavo":"OR-4"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/f1/MarineOR5.png",
         "graad":"2e meester",
         "aanspreeknaam":"Chef",
@@ -600,7 +600,7 @@
         "functie-schaalNavo":"OR-5"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/MarineOR6a.png",
         "graad":"Meester",
         "aanspreeknaam":"Chef",
@@ -608,7 +608,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/e/e5/MarineOR6b.png",
         "graad":"Meester-chef",
         "aanspreeknaam":"Chef",
@@ -616,7 +616,7 @@
         "functie-schaalNavo":"OR-6"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/3/37/MarineOR7.png",
         "graad":"1e meester",
         "aanspreeknaam":"Chef",
@@ -624,7 +624,7 @@
         "functie-schaalNavo":"OR-7"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/e/e9/MarineOR8.png",
         "graad":"1e meester-chef",
         "aanspreeknaam":"Chef",
@@ -632,7 +632,7 @@
         "functie-schaalNavo":"OR-8"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/1/1f/MarineOR9a.png",
         "graad":"Oppermeester",
         "aanspreeknaam":"Chef",
@@ -640,7 +640,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/98/MarineOR9b.png",
         "graad":"Oppermeester-chef",
         "aanspreeknaam":"Chef",
@@ -648,7 +648,7 @@
         "functie-schaalNavo":"OR-9"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/fa/MarineOF1a.png",
         "graad":"Vaandrig-ter-zee 2e klasse",
         "aanspreeknaam":"Luitenant",
@@ -656,7 +656,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/d/db/MarineOF1b.png",
         "graad":"Vaandrig-ter-zee",
         "aanspreeknaam":"Luitenant",
@@ -664,7 +664,7 @@
         "functie-schaalNavo":"OF-1"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/5/56/MarineOF2.png",
         "graad":"Luitenant-ter-zee",
         "aanspreeknaam":"Kapitein",
@@ -672,7 +672,7 @@
         "functie-schaalNavo":"OF-2"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/64/MarineOF3a.png",
         "graad":"Luitenant-ter-zee 1e klasse",
         "aanspreeknaam":"Commandant",
@@ -680,7 +680,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/64/MarineOF3b.png",
         "graad":"Korvetkapitein",
         "aanspreeknaam":"Commandant",
@@ -688,7 +688,7 @@
         "functie-schaalNavo":"OF-3"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/f/fb/MarineOF4.png",
         "graad":"Fregatkapitein",
         "aanspreeknaam":"Commandant",
@@ -696,7 +696,7 @@
         "functie-schaalNavo":"OF-4"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/7/75/MarineOF5.png",
         "graad":"Kapitein-ter-zee",
         "aanspreeknaam":"Commandant",
@@ -704,7 +704,7 @@
         "functie-schaalNavo":"OF-5"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/MarineOF6.png",
         "graad":"Flottieljeadmiraal",
         "aanspreeknaam":"Admiraal",
@@ -712,7 +712,7 @@
         "functie-schaalNavo":"OF-6"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/9a/MarineOF7.png",
         "graad":"Divisieadmiraal",
         "aanspreeknaam":"Admiraal",
@@ -720,7 +720,7 @@
         "functie-schaalNavo":"OF-7"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/9/9d/MarineOF8.png",
         "graad":"Viceadmiraal",
         "aanspreeknaam":"Admiraal",
@@ -728,7 +728,7 @@
         "functie-schaalNavo":"OF-8"
     },
     {
-        "component":"marine",
+        "component":"Marinecomponent",
         "image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/MarineOF9.png",
         "graad":"Admiraal",
         "aanspreeknaam":"Admiraal",
