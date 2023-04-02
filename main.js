@@ -61,7 +61,7 @@ const showRank = ()=>{
 
 const restRank = () =>{
     rankDiv.removeEventListener("click",restRank)
-    rankDiv.removeChild(rankDiv.firstChild())
+    rankDiv.removeChild(rankDiv.firstChild)
     drawNewRank()
 }
 
