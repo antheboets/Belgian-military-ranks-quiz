@@ -17,12 +17,21 @@ const drawNewRank = async () => {
     currentRank = data[rand(data.length)]
     let div = document.createElement("DIV")
     let loadPromise = [] 
-    let rankImage = new Image(currentRank.image)
+
+    let rankImage = new Image()
     loadPromise.push(ImageLoadPromise(rankImage))
-    let rankColorImage = new Image(currentRank.imageKleur)
+    rankImage.src = currentRank.image
+    rankImage.className = "rankImage"
+
+    let rankColorImage = new Image()
     loadPromise.push(ImageLoadPromise(rankColorImage))
+    rankColorImage.src = currentRank.imageKleur
+    rankImage.className = "rankImage"
+
     rankDiv.addEventListener("click",showRank)
+
     await Promise.all(loadPromise)
+
     imageObjs.image = rankImage
     imageObjs.imageColor = rankColorImage
     if(color){
