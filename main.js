@@ -68,7 +68,7 @@ const restRank = () =>{
 const changeImage = () => {
     let div = rankDiv.firstChild
     let img = div.getElementsByTagName("img")[0]
-    color ?  img.src = currentRank.imageColor : img.src = currentRank.image
+    color ?  img = imageObjs.imageColor : img = imageObjs.image
 }
 
 window.addEventListener("load",async ()=>{
