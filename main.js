@@ -71,9 +71,14 @@ const restRank = () =>{
 }
 
 const changeImage = () => {
+    //fix deze code
+    //rankDiv.firstChild.replaceChild(color ? imageObjs.imageColor :imageObjs.image ,rankDiv.firstChild.getElementsByTagName("img")[0])
+    //idk fix class
     let div = rankDiv.firstChild
     let img = div.getElementsByTagName("img")[0]
-    color ?  div.replaceChild(imageObjs.imageColor,img) : div.replaceChild(imageObjs.image,img)
+    console.log(imageObjs)
+    color ? div.replaceChild(imageObjs.imageColor,img) : div.replaceChild(imageObjs.image,img)
+    div.getElementsByTagName("img")[0].className = rankImage
 }
 
 window.addEventListener("load",async ()=>{
