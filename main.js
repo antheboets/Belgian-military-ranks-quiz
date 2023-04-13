@@ -1,7 +1,8 @@
 let currentRank = null
 let rankDiv
 let color = false
-let imageObjs = {}
+let imagesObj = {}
+
 
 const rand = (max) => Math.floor(Math.random() * max)
 
