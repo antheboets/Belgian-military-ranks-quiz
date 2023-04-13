@@ -32,6 +32,9 @@ switch(args.optimazation){
         mode = "production"
     break
 }
+
+console.log(`${mode} mode`)
+
 //exporting module
 module.exports = {
     entry: "./main.js",
