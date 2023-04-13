@@ -46,11 +46,13 @@ const choseNewRank = () => {
         if(currentScore > score){
             incrementScore(1)
             data[i].score = 0
-            return data[i]
+            currentRank = data[i]
+            return
         }
     }
     console.log("new rank selection methode didnt find rank")
-    return data[rand(data.length)]
+    currentRank = data[rand(data.length)]
+    return
 }
 
 const addStyleToImage = (image) =>{
