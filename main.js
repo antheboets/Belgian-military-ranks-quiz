@@ -2,7 +2,6 @@ let currentRank = null
 let rankDiv
 let color = false
 let imageObjs = {}
-let data = {}
 
 const rand = (max) => Math.floor(Math.random() * max)
 
@@ -13,8 +12,40 @@ const ImageLoadPromise = (image) =>{
     }
 }
 
+const setScore = () =>{
+    data.forEach((item)=>{
+        item.score = 1
+    })
+}
+
+const incrementScore = (value) =>{
+    data.forEach((item)=>{
+        item.score += value
+    })
+}
+
+const choseNewRank = () => {
+    let maxScore = 0
+    let score = 0
+    let currentScore = 0
+    data.forEach((item)=>{
+        maxScore += item.score
+    })
+    score = rand(maxScore)
+    for(let i = 0; i < data.length; i++){
+        currentScore += data[i].score
+        if(currentScore > score){
+            incrementScore(1)
+            data[i].score = 0
+            return data[i]
+        }
+    }
+    console.log("new rank selection methode didnt find rank")
+    return data[rand(data.length)]
+}
+
 const drawNewRank = async () => {
-    currentRank = data[rand(data.length)]
+    currentRank = choseNewRank()
     let div = document.createElement("DIV")
     let loadPromise = [] 
 
@@ -87,5 +118,6 @@ window.addEventListener("load",async ()=>{
         changeImage()
     })
     data = await(await (fetch("data.json"))).json()
+    setScore()
     await drawNewRank()
 })
