@@ -6,10 +6,18 @@ let imageObjs = {}
 const rand = (max) => Math.floor(Math.random() * max)
 
 const ImageLoadPromise = (image) =>{
-    return (resolve, reject) =>{
-        image.onload()
-        resolve()
-    }
+    return new Promise((resolve, reject) =>{
+        try{
+            image.onload = ()=>{
+                addStyleToImage(image)
+                resolve()
+            }
+        }
+        catch(err){
+            console.log(err)
+            reject(err)
+        }
+    })
 }
 
 const setScore = () =>{
@@ -44,32 +52,36 @@ const choseNewRank = () => {
     return data[rand(data.length)]
 }
 
-const drawNewRank = async () => {
-    currentRank = choseNewRank()
-    let div = document.createElement("DIV")
-    let loadPromise = [] 
+const addStyleToImage = (image) =>{
+    image.className = "rankImage"
+}
 
+const loadImages = async() => {
+    let loadPromise = [] 
+        
     let rankImage = new Image()
     loadPromise.push(ImageLoadPromise(rankImage))
     rankImage.src = currentRank.image
-    rankImage.className = "rankImage"
 
     let rankColorImage = new Image()
     loadPromise.push(ImageLoadPromise(rankColorImage))
     rankColorImage.src = currentRank.imageKleur
-    rankImage.className = "rankImage"
-
-    rankDiv.addEventListener("click",showRank)
-
+    
     await Promise.all(loadPromise)
 
-    imageObjs.image = rankImage
-    imageObjs.imageColor = rankColorImage
+    imagesObj.image = rankImage
+    imagesObj.imageColor = rankColorImage
+}
+
+const drawNewRank = async () => {
+    let div = document.createElement("DIV")
+    rankDiv.addEventListener("click",showRank)
+
     if(color){
-        div.appendChild(imageObjs.imageColor)
+        div.appendChild(imagesObj.imageColor)
     }
     else{
-        div.appendChild(imageObjs.image)
+        div.appendChild(imagesObj.image)
     }
     rankDiv.appendChild(div)
 }
@@ -95,20 +107,22 @@ const showRank = ()=>{
     rankDiv.addEventListener("click",restRank)
 }
 
-const restRank = () =>{
+const restRank = async () =>{
     rankDiv.removeEventListener("click",restRank)
+    choseNewRank()
+    await loadImages()
     rankDiv.removeChild(rankDiv.firstChild)
-    drawNewRank()
+    await drawNewRank()
 }
 
 const changeImage = () => {
     //fix deze code
-    //rankDiv.firstChild.replaceChild(color ? imageObjs.imageColor :imageObjs.image ,rankDiv.firstChild.getElementsByTagName("img")[0])
+    //rankDiv.firstChild.replaceChild(color ? imagesObj.imageColor :imagesObj.image ,rankDiv.firstChild.getElementsByTagName("img")[0])
     //idk fix class
     let div = rankDiv.firstChild
     let img = div.getElementsByTagName("img")[0]
-    color ? div.replaceChild(imageObjs.imageColor,img) : div.replaceChild(imageObjs.image,img)
-    div.getElementsByTagName("img")[0].className = "rankImage"
+    color ? div.replaceChild(imagesObj.imageColor,img) : div.replaceChild(imagesObj.image,img)
+    //div.getElementsByTagName("img")[0].className = "rankImage"
 }
 
 window.addEventListener("load",async ()=>{
@@ -119,5 +133,7 @@ window.addEventListener("load",async ()=>{
     })
     data = await(await (fetch("data.json"))).json()
     setScore()
+    choseNewRank()
+    await loadImages()
     await drawNewRank()
 })
