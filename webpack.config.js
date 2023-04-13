@@ -18,7 +18,7 @@ for(let i = 0; i < argv.length; i++){
 
 //mode of code optimization development/production/none
 let mode = ""
-switch(args.optimazation){
+switch(args.optimization){
     case "dev":
         mode = "development"
     break
