@@ -31,6 +31,13 @@
         font-size: 2.5em;
     }
 }
+body{
+    background: no-repeat url("./background.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+}
 #colorBtn{
     background-color: burlywood;
     border: 1px brown solid;
