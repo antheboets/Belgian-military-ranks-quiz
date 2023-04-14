@@ -59,10 +59,25 @@ body{
     font-style: italic; 
 }
 ul{
+    margin-left: auto;
+    margin-right: auto;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: table;
 }
 li{
     display: inline;
+    margin: 0.1em;
+    padding: 0.1em;
+}
+.componentBtn{
+    background-color: burlywood;
+    border: 1px brown solid;
+    width: fit-content;
+    font-size: 2.5em;
+}
+.componentBtnPressed{
+    background-color: grey;
+    border: 1px black solid;
+    width: fit-content;
+    font-size: 2.5em;
 }

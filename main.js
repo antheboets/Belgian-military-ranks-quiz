@@ -2,9 +2,54 @@ let currentRank = null
 let rankDiv
 let color = false
 let imagesObj = {}
+let data = []
+let backupData = []
 
+let groundActive = true
+let medicActive = true
+let airActive = true
+let navyActive = true
 
 const rand = (max) => Math.floor(Math.random() * max)
+
+const changeComponent = async (comp,compValue,e)=>{
+    if(compValue){
+        if(currentRank.component === comp){
+            while(currentRank.component !== comp){
+                choseNewRank()
+            }
+            rankDiv.removeEventListener("click",restRank)
+            await loadImages()
+            rankDiv.removeChild(rankDiv.firstChild)
+            await drawNewRank()
+        }
+        removeAllRanksFromComponent(comp)
+        e.target.className = "componentBtnPressed"
+    }
+    else{
+        addAllRanksFromComponent(comp)
+        setScore()
+        currentRank.score = 0
+        e.target.className = "componentBtn"
+    }
+}
+
+const removeAllRanksFromComponent = (comp) =>{
+    data = data.filter((rank)=>{
+        if(rank.component === comp){
+            return false
+        }
+        return true
+    })
+}
+
+const addAllRanksFromComponent = (comp) =>{
+    backupData.forEach((rank)=>{
+        if(rank.component === comp){
+            data.push(rank)
+        }
+    })
+}
 
 const ImageLoadPromise = (image) =>{
     return new Promise((resolve, reject) =>{
@@ -134,7 +179,24 @@ window.addEventListener("load",async ()=>{
         color ? color = false : color = true
         changeImage()
     })
+    document.getElementsByClassName("componentBtn")[0].addEventListener("click",(e)=>{
+        changeComponent("Landcomponent",groundActive,e)
+        groundActive = !groundActive
+    })
+    document.getElementsByClassName("componentBtn")[1].addEventListener("click",(e)=>{
+        changeComponent("Medische component",medicActive,e)
+        medicActive = !medicActive
+    })
+    document.getElementsByClassName("componentBtn")[2].addEventListener("click",(e)=>{
+        changeComponent("Luchtcomponent",airActive,e)
+        airActive = !airActive
+    })
+    document.getElementsByClassName("componentBtn")[3].addEventListener("click",(e)=>{
+        changeComponent("Marinecomponent",navyActive,e)
+        navyActive = !navyActive
+    })
     data = await(await (fetch("data.json"))).json()
+    backupData = data
     setScore()
     choseNewRank()
     await loadImages()
