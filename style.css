@@ -66,8 +66,8 @@ ul{
 }
 li{
     display: inline;
-    margin: 1px;
-    padding: 1px;
+    margin: 0.1em;
+    padding: 0.1em;
 }
 .componentBtn{
     background-color: burlywood;
