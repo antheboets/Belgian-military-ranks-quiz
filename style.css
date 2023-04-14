@@ -66,8 +66,8 @@ li{
     font-size: 2.5em;
 }
 .componentBtnPressed{
-    background-color: burlywood;
-    border: 1px brown solid;
+    background-color: grey;
+    border: 1px black solid;
     width: fit-content;
     font-size: 2.5em;
 }
