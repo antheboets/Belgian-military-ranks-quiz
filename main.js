@@ -14,22 +14,31 @@ const rand = (max) => Math.floor(Math.random() * max)
 
 const changeComponent = async (comp,compValue,e)=>{
     if(compValue){
-        if(currentRank.component === comp){
-            while(currentRank.component === comp){
-                choseNewRank()
-            }
+        if(groundActive + medicActive + airActive + navyActive == 1){
             rankDiv.removeEventListener("click",restRank)
-            await loadImages()
             rankDiv.removeChild(rankDiv.firstChild)
-            await drawNewRank()
+        }
+        else{
+            if(currentRank.component === comp){
+                while(currentRank.component === comp){
+                    choseNewRank()
+                }
+                rankDiv.removeEventListener("click",restRank)
+                await loadImages()
+                rankDiv.removeChild(rankDiv.firstChild)
+                await drawNewRank()
+            }
         }
         removeAllRanksFromComponent(comp)
         e.target.className = "componentBtnPressed"
     }
     else{
         addAllRanksFromComponent(comp)
-        setScore()
-        currentRank.score = 0
+        if(groundActive + medicActive + airActive + navyActive === 0){
+            choseNewRank()
+            await loadImages()
+            await drawNewRank()
+        }
         e.target.className = "componentBtn"
     }
 }
@@ -189,8 +198,8 @@ window.addEventListener("load",async ()=>{
         navyActive = !navyActive
     })
     data = await(await (fetch("data.json"))).json()
-    backupData = data
     setScore()
+    backupData = data
     choseNewRank()
     await loadImages()
     await drawNewRank()
