@@ -163,15 +163,8 @@ const restRank = async () =>{
     await drawNewRank()
 }
 
-const changeImage = () => {
-    //fix deze code
-    //rankDiv.firstChild.replaceChild(color ? imagesObj.imageColor :imagesObj.image ,rankDiv.firstChild.getElementsByTagName("img")[0])
-    //idk fix class
-    let div = rankDiv.firstChild
-    let img = div.getElementsByTagName("img")[0]
-    color ? div.replaceChild(imagesObj.imageColor,img) : div.replaceChild(imagesObj.image,img)
-    //div.getElementsByTagName("img")[0].className = "rankImage"
-}
+const changeImage = () => 
+    rankDiv.firstChild.replaceChild(color ? imagesObj.imageColor :imagesObj.image ,rankDiv.firstChild.getElementsByTagName("img")[0])
 
 window.addEventListener("load",async ()=>{
     rankDiv = document.getElementById("rank")
