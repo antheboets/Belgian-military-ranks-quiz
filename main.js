@@ -15,7 +15,7 @@ const rand = (max) => Math.floor(Math.random() * max)
 const changeComponent = async (comp,compValue,e)=>{
     if(compValue){
         if(currentRank.component === comp){
-            while(currentRank.component !== comp){
+            while(currentRank.component === comp){
                 choseNewRank()
             }
             rankDiv.removeEventListener("click",restRank)
