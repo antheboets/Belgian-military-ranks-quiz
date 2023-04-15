@@ -129,4 +129,4 @@ out
 .pnp.*
 
 
-dist/index.js
+dist/*.js
