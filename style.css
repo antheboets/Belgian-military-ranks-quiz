@@ -89,12 +89,15 @@ li{
 }
 a{
     color: black;
+    text-decoration: none;
 }
 a:active{
     color: black;
+    text-decoration: none;
 }
 a:visited{
     color: black;
+    text-decoration: none;
 }
 .pList{
     font-size: 2em;
