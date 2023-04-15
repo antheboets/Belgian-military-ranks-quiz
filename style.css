@@ -87,3 +87,12 @@ li{
     margin-right: auto;
     width: 20%;
 }
+a{
+    color: black;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
