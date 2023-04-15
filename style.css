@@ -85,7 +85,7 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 30%;
 }
 a{
     color: black;
@@ -97,5 +97,5 @@ a:visited{
     color: black;
 }
 .pList{
-    font-size: 1em;
+    font-size: 2em;
 }
