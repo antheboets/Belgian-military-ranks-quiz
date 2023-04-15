@@ -36,12 +36,23 @@ switch(args.optimization){
 console.log(`${mode} mode`)
 
 //exporting module
-module.exports = {
-    entry: "./main.js",
-    name: "index",
-    mode: mode,
-    output:{
-        filename: "index.js",
-        path: path.resolve(__dirname,"dist")
+module.exports = [
+    {
+        entry: "./main.js",
+        name: "index",
+        mode: mode,
+        output:{
+            filename: "index.js",
+            path: path.resolve(__dirname,"dist")
+        }
+    },
+    {
+        entry: "./list.js",
+        name: "list",
+        mode: mode,
+        output:{
+            filename: "list.js",
+            path: path.resolve(__dirname,"dist")
+        }
     }
-}
+]

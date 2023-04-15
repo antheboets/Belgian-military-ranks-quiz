@@ -81,3 +81,24 @@ li{
     width: fit-content;
     font-size: 2.5em;
 }
+.listImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+.pList{
+    font-size: 2em;
+}
