@@ -1,0 +1,186 @@
+[
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/7/72/MedicOR1.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/d/d3/KleurMedicOR1.png",
+        "graad":"Soldaat",
+        "aanspreeknaam":"Soldaat",
+        "functie-schaalNavo":"OR-1"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/7/71/MedicOR2.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/0/0a/KleurMedicOR2.png",
+        "graad":"1e soldaat",
+        "aanspreeknaam":"1e soldaat",
+        "functie-schaalNavo":"OR-2"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/6/68/MedicOR3.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/7/7c/KleurMedicOR3.png",
+        "graad":"Korporaal",
+        "aanspreeknaam":"Korporaal",
+        "functie-schaalNavo":"OR-3"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/f/f2/MedicOR4a.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/d/d2/KleurMedicOR4a.png",
+        "graad":"Korporaal-chef",
+        "aanspreeknaam":"Korporaal-chef",
+        "functie-schaalNavo":"OR-4"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/f/f7/MedicOR4b.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/9/99/KleurMedicOR4b.png",
+        "graad":"1e korporaal-chef",
+        "aanspreeknaam":"1e korporaal-chef",
+        "functie-schaalNavo":"OR-4"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/4/4f/MedicOR5.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/6/66/KleurMedicOR5.png",
+        "graad":"Sergeant",
+        "aanspreeknaam":"Sergeant",
+        "functie-schaalNavo":"OR-5"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/6/6c/MedicOR6a.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/a1/KleurMedicOR6a.png",
+        "graad":"1e sergeant",
+        "aanspreeknaam":"Chef",
+        "functie-schaalNavo":"OR-6"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/c/c5/MedicOR6b.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/6/64/KleurMedicOR6b.png",
+        "graad":"1e sergeant-chef",
+        "aanspreeknaam":"Chef",
+        "functie-schaalNavo":"OR-6"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/4/41/MedicOR7.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/cf/KleurMedicOR7.png",
+        "graad":"1e sergeant-majoor",
+        "aanspreeknaam":"Chef",
+        "functie-schaalNavo":"OR-7"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/1/1a/MedicOR8.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/6/62/KleurMedicOR8.png",
+        "graad":"Adjudant",
+        "aanspreeknaam":"Adjudant",
+        "functie-schaalNavo":"OR-8"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/c/c0/MedicOR9a.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/85/KleurMedicOR9a.png",
+        "graad":"Adjudant-chef",
+        "aanspreeknaam":"Adjudant-chef",
+        "functie-schaalNavo":"OR-9"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/a/a4/MedicOR9b.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/ec/KleurMedicOR9b.png",
+        "graad":"Adjudant-majoor",
+        "aanspreeknaam":"Adjudant-majoor",
+        "functie-schaalNavo":"OR-9"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/1/1a/MedicOF1a.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/8/84/KleurMedicOF1a.png",
+        "graad":"Onderluitenant",
+        "aanspreeknaam":"Luitenant",
+        "functie-schaalNavo":"OF-1"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/5/58/MedicOF1b.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/0/0a/KleurMedicOF1b.png",
+        "graad":"Luitenant",
+        "aanspreeknaam":"Luitenant",
+        "functie-schaalNavo":"OF-1"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/3/3c/MedicOF2.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/f/fc/KleurMedicOF2.png",
+        "graad":"Kapitein",
+        "aanspreeknaam":"Kapitein",
+        "functie-schaalNavo":"OF-2"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/f/f9/MedicOF3a.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/a/af/KleurMedicOF3a.png",
+        "graad":"Kapitein-commandant",
+        "aanspreeknaam":"Commandant",
+        "functie-schaalNavo":"OF-3"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/2/29/MedicOF3b.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/e/e6/KleurMedicOF3b.png",
+        "graad":"Majoor",
+        "aanspreeknaam":"Majoor",
+        "functie-schaalNavo":"OF-3"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/b/b0/MedicOF4.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/4/49/KleurMedicOF4.png",
+        "graad":"Luitenant-kolonel",
+        "aanspreeknaam":"Kolonel",
+        "functie-schaalNavo":"OF-4"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/b/be/MedicOF5.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/b/bd/KleurMedicOF5.png",
+        "graad":"Kolonel",
+        "aanspreeknaam":"Kolonel",
+        "functie-schaalNavo":"OF-5"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/9/94/MedicOF6.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/9/99/KleurMedicOF6.png",
+        "graad":"Brigadegeneraal",
+        "aanspreeknaam":"Generaal",
+        "functie-schaalNavo":"OF-6"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/6/60/MedicOF7.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/c/cd/KleurMedicOF7.png",
+        "graad":"Generaal-majoor",
+        "aanspreeknaam":"Generaal",
+        "functie-schaalNavo":"OF-7"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/f/f7/MedicOF8.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/b/bf/KleurMedicOF8.png",
+        "graad":"Luitenant-generaal",
+        "aanspreeknaam":"Generaal",
+        "functie-schaalNavo":"OF-8"
+    },
+    {
+        "component":"Medische component",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/7/76/MedicOF9.png",
+        "imageKleur":"https://upload.wikimedia.org/wikipedia/commons/f/f7/KleurMedicOF9.png",
+        "graad":"Generaal",
+        "aanspreeknaam":"Generaal",
+        "functie-schaalNavo":"OF-9"
+    }
+]
